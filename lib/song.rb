@@ -5,7 +5,7 @@ class Song
   def initialize(name)
     @name = name
     @@all << self
-  endhttps://learn.co/tracks/online-software-engineering-structured/object-oriented-ruby/object-relationships/has-many-object-lab#
+  end
   
   def self.all
     @@all 
